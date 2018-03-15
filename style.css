@@ -1,0 +1,120 @@
+
+.card-header {
+    text-align: center;
+}
+
+.col-md-4{
+    align-content: center;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #303030;
+    border-radius: 0.3rem;
+    
+  }
+  
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding: 2.5rem 2rem;
+    }
+  }
+  
+  .jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+  }
+
+#suggestBtn{
+    width: 300px;
+    }
+
+#category{
+  width: 100px;
+  margin: 5px;
+}
+
+#search{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+#srchbar{
+  width: 700px;
+}
+
+#middlebttns{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.btn-outline-primary{
+  color:#cccc00;
+  border-color: #cccc00;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #cccc00;
+  border-color: #cccc00;
+  
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: #cccc00;
+  background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #cccc00;
+  border-color: #cccc00;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(179, 179, 0, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(179, 179, 0, 0.5);
+}
+
+
+.btn-outline-success{
+  color:#cc00cc;
+  border-color: #cc00cc;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #cc00cc;
+  border-color: #cc00cc;
+  
+}
+
+.btn-outline-success.disabled, .btn-outline-success:disabled {
+  color: #cc00cc;
+  background-color: transparent;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active,
+.show > .btn-outline-success.dropdown-toggle {
+  color: #fff;
+  background-color: #cc00cc;
+  border-color: #cc00cc;
+}
+
+.btn-outline-success:focus, .btn-outline-success.focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(179, 0, 179, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(179, 0, 179, 0.5);
+}
+
+
+.row {  
+  margin-right: 10px;
+  margin-left: 10px;}
+
+
